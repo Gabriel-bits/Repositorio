@@ -1,32 +1,129 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+}
 
-h1{
+.title{
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Cabeçalho */
+
+.cabeçalho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 19, 19, 0.596);
+
+}
+
+.cabeçalho a{
+    text-decoration: none;
+    padding-left: 5px;
     color: #fff;
 }
 
-h2{
+.menu{
+    display: flex;
+    /* background-color: rgba(0, 19, 19, 0.596); */
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+.corpo{
+    background-color: rgb(5, 0, 10);
+}
+
+/* Projetos: */
+
+.projeto{
+    display: flex;
+    text-align: left;
+}
+
+.projeto ul{
+    margin: 4px;
+}
+
+.projeto img{
+    background-color: rgba(0, 19, 19, 0.596);
+    padding: 5px;
+    width: 35mm;
+}
+
+.projeto a{
     color: #fff;
+    text-decoration: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.projeto p{
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.projeto h5{
+    margin-top: 6px;
+    margin-bottom: 1px;
+}
+
+/* right */
+
+.taxtodireta{
+    text-align: left;
+}
+.taxtosquerda{
+    text-align: right;
+}
+
+/* .projeto1{
+    background-color: rgba(0, 19, 19, 0.596);
+} */
+
+div.projeto{
+    margin-bottom: 30px;
 }
 
 
-h3{
-    color: #fff;
+/* Responsivo */
+
+@media (max-width: 395px) {
+    .cabeçalho{
+        font-size: 80%;
+    }
 }
 
-
-h4{
-    color: #fff;
+@media (max-width: 320px) {
+    .cabeçalho{
+        font-size: 65%;  
+    }
+    h2.title{
+        font-size: 130%;
+    }
 }
 
-
-h5{
-    color: #fff;
+@media (max-width: 395px) {
+    .projeto img{
+        width: 29%;
+    }
 }
 
-
-h6{
-    color: #fff;
-}
-
-p{
-    color: #fff;
+@media (max-width: 395px) {
+    .projeto img{
+        width: 29%;
+    }
 }
