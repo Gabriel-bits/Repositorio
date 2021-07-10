@@ -22,7 +22,8 @@
 .projeto img{
     background-color: rgba(0, 78, 59, 0.63);
     padding: 5px;
-    width: 25%;
+    width: 35mm;
+    height: 30mm;
     
 }
 
@@ -47,6 +48,7 @@
 div.projeto{
     margin-bottom: 30px;
 }
+
 /* organização do texto e da imagem */
 
 /* div.taxtosquerda img{
@@ -61,14 +63,18 @@ div.projeto{
     text-align: none;
 }
 
-
-
-
 /* .projeto1{
     background-color: rgba(0, 19, 19, 0.596);
 } */    
 
 /* Responsivo */
+
+@media (max-width: 560px) {
+    .projetos {
+        flex-wrap: wrap;
+    }
+
+}
 
 @media (max-width: 425px) {
     .projetos {
