@@ -1,3 +1,4 @@
-# Templeite
+# Templeite de portifolio
 
-de portifolio
+Templeite de portifolio 
+criado e sedo desenvolvido por @Gabriel e @Urano
